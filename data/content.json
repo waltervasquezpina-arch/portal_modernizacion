@@ -38,21 +38,6 @@
             "video_title": "Tutorial: Gestión por Procesos"
         },
         {
-            "id": "gestion-calidad",
-            "title": "Gestión de Calidad",
-            "definition": "Conjunto de acciones planificadas y sistemáticas necesarias para proporcionar la confianza de que un producto o servicio satisfaga las expectativas del ciudadano.",
-            "purpose": "Garantizar que los servicios entregados por AGROIDEAS cumplan con estándares de excelencia y satisfacción ciudadana.",
-            "phases": [
-                { "title": "Planificación", "description": "Establecer objetivos y estándares de calidad.", "icon": "target" },
-                { "title": "Control", "description": "Verificación del cumplimiento de los estándares.", "icon": "check-square" }
-            ],
-            "roles": [
-                { "role": "Auditor Interno", "description": "Verifica el cumplimiento del sistema de gestión." }
-            ],
-            "video_url": "#",
-            "video_title": "Video: Estándares de Calidad"
-        },
-        {
             "id": "innovacion-publica",
             "title": "Innovación Pública",
             "definition": "Proceso iterativo mediante el cual se crean nuevas soluciones a problemas públicos, involucrando a diversos actores para generar valor público.",

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal de Modernización de la Gestión Pública de AGROIDEAS">
+    <meta property="og:title" content="Modernización del Estado - AGROIDEAS">
     <title>Modernización del Estado - AGROIDEAS</title>
     <!-- Tailwind CSS para diseño moderno -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -87,7 +89,7 @@
                     </div>
                     <!-- Tarjeta 4 -->
                     <div class="card-hover bg-slate-50 p-10 rounded-[2.5rem] border border-slate-100 flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
-                        <div class="w-20 h-20 bg-purple-600/10 text-purple-600 rounded-3xl flex items-center justify-center mb-8">
+                        <div class="w-20 h-20 bg-indigo-600/10 text-indigo-600 rounded-3xl flex items-center justify-center mb-8">
                             <i data-lucide="eye" class="w-10 h-10"></i>
                         </div>
                         <h4 class="text-xl font-black text-slate-900 mb-4">Estado Abierto</h4>
@@ -111,7 +113,7 @@
                     <p class="text-slate-400 text-lg font-medium max-w-sm">Cuatro enfoques articulados para modernizar la gestión agraria en AGROIDEAS.</p>
                 </div>
 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
                     <!-- Gestión del Conocimiento -->
                     <div class="group relative bg-white/5 border border-white/10 p-12 rounded-[3rem] hover:bg-white/10 transition-all duration-500" data-aos="fade-up">
                         <div class="flex items-start gap-8">
@@ -144,32 +146,16 @@
                         </div>
                     </div>
 
-                    <!-- Gestión de la Calidad -->
+                    <!-- Innovación Pública -->
                     <div class="group relative bg-white/5 border border-white/10 p-12 rounded-[3rem] hover:bg-white/10 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
                         <div class="flex items-start gap-8">
-                            <div class="w-16 h-16 bg-amber-500 text-white rounded-2xl flex flex-shrink-0 items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all">
-                                <i data-lucide="award" class="w-8 h-8"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-3xl font-black text-white mb-4">Gestión de la Calidad</h4>
-                                <p class="text-slate-400 font-medium leading-relaxed mb-8">Aseguramos que cada bien y servicio entregado cumpla con estándares de excelencia, satisfaciendo las expectativas reales de los productores agrarios.</p>
-                                <a href="gestion_calidad.html" class="inline-flex items-center gap-2 text-amber-400 font-black uppercase tracking-widest text-xs hover:text-white transition-colors">
-                                    Explorar Eje <i data-lucide="arrow-right" class="w-4 h-4"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Innovación Pública -->
-                    <div class="group relative bg-white/5 border border-white/10 p-12 rounded-[3rem] hover:bg-white/10 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
-                        <div class="flex items-start gap-8">
-                            <div class="w-16 h-16 bg-purple-600 text-white rounded-2xl flex flex-shrink-0 items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all">
+                            <div class="w-16 h-16 bg-indigo-600 text-white rounded-2xl flex flex-shrink-0 items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all">
                                 <i data-lucide="lightbulb" class="w-8 h-8"></i>
                             </div>
                             <div>
                                 <h4 class="text-3xl font-black text-white mb-4">Innovación Pública</h4>
                                 <p class="text-slate-400 font-medium leading-relaxed mb-8">Fomentamos espacios de cocreación y experimentación ágil para diseñar soluciones novedosas a los desafíos más complejos del sector.</p>
-                                <a href="gestion_innovacion.html" class="inline-flex items-center gap-2 text-purple-400 font-black uppercase tracking-widest text-xs hover:text-white transition-colors">
+                                <a href="gestion_innovacion.html" class="inline-flex items-center gap-2 text-indigo-400 font-black uppercase tracking-widest text-xs hover:text-white transition-colors">
                                     Explorar Eje <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                 </a>
                             </div>
@@ -187,17 +173,15 @@
                     <p class="text-lg text-slate-600 max-w-2xl mx-auto">La modernización no es solo procesos, es un cambio de mentalidad. Te invitamos a conocer nuestra visión a través de este video de sensibilización.</p>
                 </div>
                 
-                <div class="relative aspect-video rounded-[3rem] overflow-hidden shadow-2xl shadow-blue-900/10 border-8 border-white group" data-aos="zoom-in">
+                <div id="video-container" class="relative aspect-video rounded-[3rem] overflow-hidden shadow-2xl shadow-blue-900/10 border-8 border-white group cursor-pointer" onclick="playIntroVideo()" data-aos="zoom-in">
                     <div class="absolute inset-0 bg-slate-950 flex items-center justify-center">
-                        <div class="flex flex-col items-center gap-6">
-                            <div class="w-24 h-24 bg-pcm-red text-white rounded-full flex items-center justify-center shadow-2xl shadow-red-600/40 group-hover:scale-110 transition-transform cursor-pointer">
-                                <i data-lucide="play" class="w-10 h-10 fill-current"></i>
+                        <div class="flex flex-col items-center gap-6 text-center px-4">
+                            <div class="w-24 h-24 bg-pcm-red text-white rounded-full flex items-center justify-center shadow-2xl shadow-red-600/40 group-hover:scale-110 transition-transform">
+                                <i data-lucide="play" class="w-10 h-10 fill-current ml-1"></i>
                             </div>
                             <span class="text-white font-black uppercase tracking-widest text-sm">Reproducir Introducción</span>
                         </div>
                     </div>
-                    <!-- Placeholder: NotebookLM Video -->
-                    <!-- Video Explicativo -->
                 </div>
             </div>
         </section>
@@ -224,5 +208,22 @@
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/components.js"></script>
+    <script>
+        function playIntroVideo() {
+            const container = document.getElementById('video-container');
+            if (container) {
+                container.removeAttribute('onclick');
+                container.classList.remove('cursor-pointer');
+                container.innerHTML = `
+                    <iframe 
+                        src="https://drive.google.com/file/d/1sATvm7DnNONHI-R_Y3y-o59u4jZGYGVj/preview" 
+                        class="w-full h-full absolute inset-0 border-0" 
+                        allow="autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" 
+                        allowfullscreen>
+                    </iframe>
+                `;
+            }
+        }
+    </script>
 </body>
 </html>

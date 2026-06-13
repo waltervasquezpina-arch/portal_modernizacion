@@ -27,11 +27,11 @@ La estructura del árbol de directorios obedece al siguiente estándar moderno:
 │
 ├── js/
 │   ├── components.js       # Core de inyección de componentes y gestión de UI.
-│   ├── auth.js             # Lógica para gestión de accesos y seguridad básica.
+│   ├── auth.js             # [Fase Futura] Lógica para gestión de accesos y seguridad.
 │   └── content-loader.js   # Motor de carga dinámica de contenidos desde JSON.
 │
 ├── data/
-│   ├── users.json           # Base de datos de usuarios (Simulación).
+│   ├── users.json           # [Fase Futura] Base de datos de usuarios (Simulación).
 │   └── content.json         # Base de datos de contenidos dinámicos.
 │
 ├── images/                  # Activos gráficos críticos (Logos, Banners).

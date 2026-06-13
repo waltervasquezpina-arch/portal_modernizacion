@@ -14,8 +14,8 @@ Actualmente, el sistema consume un `content.json` local. La capa de acceso a dat
 3. **Paginación del Lado del Servidor:** La integración actual de DataTables soporta `serverSide: true`. Cuando el JSON exceda los 5,000 registros, la carga de datos deberá delegarse al servidor de base de datos para no penalizar el rendimiento del navegador.
 
 ## 3. Escalabilidad del Gestor de Contenidos
-El panel administrativo (Admin Dashboard) actual genera un JSON. Si se requiere un sistema más robusto:
-- El formulario de administración puede enviar un `POST` o `PUT` a una API, en lugar de descargar el archivo.
+El panel administrativo (Admin Dashboard) proyectado generará un archivo JSON. Si se requiere un sistema más robusto:
+- El formulario de administración puede enviar un `POST` o `PUT` a una API, en lugar de descargar el archivo directamente.
 - Incorporación de **Niveles de Aprobación**: Los cambios guardados pueden pasar a estado *Borrador* (Draft) y enviar un correo electrónico al coordinador GxP para ser pasados a estado *Publicado* (Published).
 
 ## 4. Analítica Web y Monitoreo

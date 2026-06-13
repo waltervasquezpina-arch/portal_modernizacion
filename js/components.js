@@ -41,12 +41,6 @@ const components = {
                                     </div>
                                     <span class="text-sm font-semibold text-slate-700">Gestión por Procesos</span>
                                 </a>
-                                <a href="gestion_calidad.html" class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
-                                    <div class="p-2 bg-red-50 text-red-600 rounded-lg group-hover/item:bg-red-600 group-hover/item:text-white transition-colors">
-                                        <i data-lucide="award" class="w-5 h-5"></i>
-                                    </div>
-                                    <span class="text-sm font-semibold text-slate-700">Gestión de Calidad</span>
-                                </a>
                                 <a href="gestion_innovacion.html" class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group/item">
                                     <div class="p-2 bg-amber-50 text-amber-600 rounded-lg group-hover/item:bg-amber-600 group-hover/item:text-white transition-colors">
                                         <i data-lucide="lightbulb" class="w-5 h-5"></i>
@@ -78,7 +72,6 @@ const components = {
                 <p class="text-xs uppercase font-bold text-slate-400 tracking-widest">Ejes</p>
                 <a href="gestion_conocimiento.html" class="block text-slate-600 py-1">Gestión del Conocimiento</a>
                 <a href="gestion_procesos.html" class="block text-slate-600 py-1">Gestión por Procesos</a>
-                <a href="gestion_calidad.html" class="block text-slate-600 py-1">Gestión de Calidad</a>
                 <a href="gestion_innovacion.html" class="block text-slate-600 py-1">Innovación Pública</a>
             </div>
             <a href="doc_gestion.html" class="block text-lg font-semibold text-slate-700">Documentos</a>

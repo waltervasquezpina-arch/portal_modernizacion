@@ -20,7 +20,6 @@ El proyecto se organiza en torno a los ejes estratégicos de la modernización:
 * `index.html`: Página principal con el resumen de objetivos estratégicos y pilares de transformación.
 * `gestion_conocimiento.html`: Políticas y herramientas para la gestión del capital intelectual.
 * `gestion_procesos.html`: Directrices para la productividad y mejora de procesos institucionales.
-* `gestion_calidad.html`: Enfoque en la calidad de servicios y mejora regulatoria.
 * `gestion_innovacion.html`: Estrategias e iniciativas para el fomento de la innovación pública.
 * `repositorio.html`: Centro de documentación centralizado (Normatividad, Guías, Publicaciones) con tablas interactivas.
 * `estructura_organica.html`: Detalle de la organización funcional y jerárquica de la institución.
@@ -34,10 +33,12 @@ El proyecto se organiza en torno a los ejes estratégicos de la modernización:
 
 Para un análisis profundo del sistema, consulte los siguientes manuales en la carpeta `/document`:
 
+0.  **[Índice de Documentación](document/0_Indice_Documentacion.md)**: Guía principal de los documentos técnicos del proyecto.
 1.  **[Arquitectura Estructural](document/1_Arquitectura_Estructural.md)**: Diseño jerárquico y organización de archivos.
 2.  **[Guía de Estilos UI](document/2_Guia_de_Estilos_UI.md)**: Estándares visuales, colores y componentes.
 3.  **[Manual de Despliegue](document/3_Manual_Despliegue_Mantenimiento.md)**: Guía paso a paso para actualización y mantenimiento.
 4.  **[Arquitectura de Datos y Flujos](document/4_Arquitectura_Datos_Interaccion.md)**: Detalle del motor dinámico JSON, seguridad y diagramas UML/Mermaid.
+5.  **[Integración y Escalabilidad](document/5_Integracion_Sistemas_Externos.md)**: Proyección hacia SharePoint, APIs backend y analítica.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -56,5 +57,4 @@ Al ser un sitio web estático, su despliegue es inmediato y no requiere backend:
 3. Para realizar cambios globales en la navegación o el pie de página, edita el archivo `js/components.js`.
 
 ---
-*Ultima actualización: Marzo 2026 - Modernización AGROIDEAS*
-"# portal_modernizacion"  
+*Ultima actualización: Junio 2026 - Modernización AGROIDEAS*
